@@ -31,7 +31,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Location", name: "location", widget: "list"}
+      - {label: "Locations", name: "locations", widget: "list"}
 
 
   - name: "pages"

@@ -6,5 +6,7 @@ description: The Coffee Taster’s Flavor Wheel, the official resource used by c
 tags:
   - flavor
   - tasting
+locations: 
+  - Los Angeles
 ---
 hi
