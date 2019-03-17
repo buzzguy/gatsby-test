@@ -1,38 +1,12 @@
-import React from "react";
+---
+templateKey: client
+client: Acne
+title: Revolution Campaign
+date: 2016-12-17T15:04:10.000Z
+description: Lots of Styling
+tags:
+  - flavor
+  - tasting
+---
 
-import Layout from "../../components/Layout";
-import ListClients from "../../components/ListClients";
-
-export default class PhotographersIndexPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <div
-                className="full-width-image-container margin-top-0"
-                style={{
-                  backgroundImage: `url('/img/blog-index.jpg')`
-                }}
-              >
-                <h1
-                  className="has-text-weight-bold is-size-1"
-                  style={{
-                    boxShadow: "0.5rem 0 0 #f40, -0.5rem 0 0 #f40",
-                    backgroundColor: "#f40",
-                    color: "white",
-                    padding: "1rem"
-                  }}
-                >
-                  List of Clients
-                </h1>
-              </div>
-            </div>
-            <ListClients />
-          </div>
-        </section>
-      </Layout>
-    );
-  }
-}
+hi
